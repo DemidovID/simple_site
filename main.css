@@ -447,6 +447,7 @@ textarea {
 
 body {
 	font-family: monospace;
+	color: #070707;
 }
 
 /* header start */
@@ -562,7 +563,6 @@ body {
 
 .info__text {
 	margin-bottom: 91px;
-	text-align: center;
 	height: 500px;
 }
 
@@ -577,6 +577,8 @@ body {
 }
 
 .info__text-desc {
+	max-width: 650px;
+	margin: 0 auto;
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
@@ -584,6 +586,7 @@ body {
 }
 
 .info__desc-1 {
+	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
@@ -595,3 +598,73 @@ body {
 	padding-bottom: 107px;
 }
 /* info-block end */
+
+/* Skills start */
+.skills__text {
+	text-align: center;
+}
+
+.skills__title {
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	margin-bottom: 69px;
+}
+
+.skills__subtitle {
+	margin-bottom: 83px;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.skills__program {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 28px;
+}
+
+.program__card {
+	position: relative;
+}
+
+.skills__program__PS {
+	margin-bottom: 24px;
+}
+
+.skills__desc {
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills__desc_text-1 {
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+	max-width: 70.29px;
+	position: absolute;
+	text-align: center;
+	left: 7px;
+}
+
+.skills__desc_text-2 {
+	text-align: center;
+	max-width: 70px;
+}
+
+.skills__desc_text-3 {
+	text-align: center;
+	max-width: 70px;
+}
+
+.skills__desc_text-4 {
+	text-align: center;
+	max-width: 70px;
+} */
+/* Skills end */
