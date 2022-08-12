@@ -510,6 +510,8 @@ body {
 }
 
 .langs {
+	/* writing-mode: vertical-lr; */
+	transform: rotate(-90deg);
 	font-size: 16px;
 	line-height: 20px;
 }
