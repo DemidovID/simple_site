@@ -557,3 +557,70 @@ body {
 	transform: scale(1.04);
 }
 /* header end */
+/* about start */
+.about-me {
+	background: #f6f6f6;
+}
+
+.about-me__title {
+	padding-top: 100px;
+	margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
+.about__subtitle {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+
+.about__subtitle:last-child {
+	margin-bottom: 91px;
+	padding-bottom: 107px;
+}
+/* about end */
+
+/* skills start */
+.skills__title {
+	margin-bottom: 69px;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
+.skills__subtitle {
+	margin-bottom: 89px;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+
+.skills__cards-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills__card-block {
+	border: 1px solid black;
+}
+
+.skills__pic {
+	margin-bottom: 24px;
+	text-align: center;
+	align-content: center;
+}
+
+.skills__card-text {
+	margin-bottom: 40px;
+	max-width: 70px;
+}
+/* skills end */
