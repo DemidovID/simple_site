@@ -464,6 +464,14 @@ body {
 	margin: 0 auto;
 }
 
+.title {
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
 /* header start */
 .header__list {
 	margin-bottom: 32px;
@@ -565,11 +573,6 @@ body {
 .about-me__title {
 	padding-top: 100px;
 	margin-bottom: 40px;
-	font-weight: 600;
-	font-size: 34px;
-	line-height: 42px;
-	text-align: center;
-	color: #070707;
 }
 
 .about__subtitle {
@@ -610,7 +613,10 @@ body {
 }
 
 .skills__card-block {
-	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 }
 
 .skills__pic {
@@ -621,6 +627,46 @@ body {
 
 .skills__card-text {
 	margin-bottom: 40px;
-	max-width: 70px;
+	max-width: 110px;
+	text-align: center;
+}
+
+.figma__text {
+	height: 26px;
+}
+
+.skills__stars {
+	margin-bottom: 110px;
 }
 /* skills end */
+
+/* portfolio start */
+.portfolio {
+	background: #f6f6f6;
+}
+
+.portfolio__title {
+	padding-top: 113px;
+	padding-bottom: 47px;
+}
+
+.portfolio__pic {
+	margin-bottom: 45px;
+	transition: 0.2s all;
+}
+
+.portfolio__pic:hover {
+	transform: scale(1.04);
+}
+
+.portfolio__link {
+	padding-bottom: 99px;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #070707;
+}
+/* portfolio end */
